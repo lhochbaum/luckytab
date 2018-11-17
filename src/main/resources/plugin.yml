@@ -1,0 +1,9 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+
+author: Linus Hochbaum
+website: ${project.url}
+
+depend: [ LuckPerms ]
+main: ${project.groupId}.${project.artifactId}.${project.name}Plugin
